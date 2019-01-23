@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Logo_L.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/Scripts/Logo_L.gd" type="Script" id=2]
+
+
+[node name="root" type="Node" index="0"]
+
+[node name="Logo_L" type="Sprite" parent="." index="0"]
+
+position = Vector2( 488.351, 251.04 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="Logo_L" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -488.351
+margin_top = -251.04
+margin_right = -412.351
+margin_bottom = -237.04
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+text = "Hello World"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+
